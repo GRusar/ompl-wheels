@@ -1,0 +1,12 @@
+
+# OMPL platform-specific dependencies
+boost==0.1
+numpy==1.26.4
+pyplusplus==1.8.7
+pygccxml @ https://github.com/CastXML/pygccxml/archive/develop.zip
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-macos-15-arm64/ompl-1.7.0-cp310-cp310-macosx_15_0_arm64.whl ; sys_platform == "darwin" and platform_machine == "arm64" and python_version == "3.10"
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-macos-15-arm64/ompl-1.7.0-cp311-cp311-macosx_15_0_arm64.whl ; sys_platform == "darwin" and platform_machine == "arm64" and python_version == "3.11"
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-macos-15-arm64/ompl-1.7.0-cp312-cp312-macosx_15_0_arm64.whl ; sys_platform == "darwin" and platform_machine == "arm64" and python_version == "3.12"
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-ubuntu-latest-x86_64/ompl-1.7.0-cp310-cp310-manylinux_2_28_x86_64.whl ; sys_platform == "linux" and platform_machine == "x86_64" and python_version == "3.10"
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-ubuntu-latest-x86_64/ompl-1.7.0-cp311-cp311-manylinux_2_28_x86_64.whl ; sys_platform == "linux" and platform_machine == "x86_64" and python_version == "3.11"
+ompl @ https://github.com/GRusar/ompl-wheels/raw/refs/heads/main/v1.7.0/wheels-ubuntu-latest-x86_64/ompl-1.7.0-cp312-cp312-manylinux_2_28_x86_64.whl ; sys_platform == "linux" and platform_machine == "x86_64" and python_version == "3.12"
